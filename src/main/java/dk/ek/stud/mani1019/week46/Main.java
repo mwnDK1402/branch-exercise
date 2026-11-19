@@ -6,7 +6,7 @@ public class Main {
     static void main(String[] args) {
         System.out.println("Velkommen til dyrehaven");
 
-        Animal[] animals = {new Dog("Fido"), new Cat("Misser")};
+        Animal[] animals = {new Dog("Fido"), new Cat("Misser"), new Bird("Pippi")};
 
         for (Animal animal : animals) {
             System.out.println(animal.getName() + " siger " + animal.makeSound());
@@ -14,3 +14,4 @@ public class Main {
         }
     }
 }
+
