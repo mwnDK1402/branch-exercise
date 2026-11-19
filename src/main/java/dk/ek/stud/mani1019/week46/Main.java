@@ -4,6 +4,8 @@ package dk.ek.stud.mani1019.week46;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main(String[] args) {
+        System.out.println("Velkommen til dyrehaven");
+
         Animal[] animals = {new Dog("Fido"), new Cat("Misser")};
 
         for (Animal animal : animals) {
