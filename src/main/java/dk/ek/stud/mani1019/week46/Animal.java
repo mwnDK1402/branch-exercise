@@ -4,8 +4,11 @@ public abstract class Animal {
 
     private String name;
 
-    public Animal(String name) {
+    private int age;
+
+    public Animal(String name, int age) {
         this.name = name;
+        this.age = age;
     }
 
     public String getName() {
@@ -15,4 +18,8 @@ public abstract class Animal {
     public abstract String makeSound();
 
     public abstract boolean eat(String food);
+
+    public int getAge() {
+        return age;
+    }
 }
