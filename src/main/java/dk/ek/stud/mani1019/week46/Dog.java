@@ -8,7 +8,7 @@ public class Dog extends Animal {
 
     @Override
     public String makeSound() {
-        return "Vov";
+        return "Vuf";
     }
 
     @Override
