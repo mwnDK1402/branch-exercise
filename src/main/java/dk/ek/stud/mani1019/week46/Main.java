@@ -6,10 +6,10 @@ public class Main {
     static void main(String[] args) {
         System.out.println("Velkommen til dyrehaven");
 
-        Animal[] animals = {new Dog("Fido"), new Cat("Misser"), new Fish("Nemo"), new Bird("Pippi")};
+        Animal[] animals = {new Dog("Fido", 5), new Cat("Misser", 10), new Fish("Nemo", 3), new Bird("Pippi", 1)};
 
         for (Animal animal : animals) {
-            System.out.println(animal.getName() + " siger " + animal.makeSound());
+            System.out.println(animal.getName() + " (" + animal.getAge() + " år) siger " + animal.makeSound());
             System.out.println(animal.getName() + " spiser \uD83D\uDC1F: " + animal.eat("fisk"));
         }
     }

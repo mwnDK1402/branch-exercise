@@ -1,8 +1,8 @@
 package dk.ek.stud.mani1019.week46;
 
 public class Bird extends Animal {
-    public Bird(String name) {
-        super(name);
+    public Bird(String name, int age) {
+        super(name, age);
     }
 
     @Override

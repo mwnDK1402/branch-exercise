@@ -2,8 +2,8 @@ package dk.ek.stud.mani1019.week46;
 
 public class Fish extends Animal {
 
-    public Fish(String name) {
-        super(name);
+    public Fish(String name, int age) {
+        super(name, age);
     }
 
     @Override
