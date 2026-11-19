@@ -10,6 +10,7 @@ public class Main {
 
         for (Animal animal : animals) {
             System.out.println(animal.getName() + " siger " + animal.makeSound());
+            System.out.println(animal.getName() + " spiser \uD83D\uDC1F: " + animal.eat("fisk"));
         }
     }
 }
