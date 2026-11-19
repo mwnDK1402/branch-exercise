@@ -3,7 +3,7 @@ package dk.ek.stud.mani1019.week46;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    static void main(String[] args) {
+    static void main() {
         System.out.println("Velkommen til dyrehaven");
 
         Animal[] animals = {
