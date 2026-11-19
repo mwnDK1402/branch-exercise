@@ -1,8 +1,8 @@
 package dk.ek.stud.mani1019.week46;
 
 public final class Horse extends Animal {
-    public Horse(String name) {
-        super(name);
+    public Horse(String name, int age) {
+        super(name, age);
     }
 
     @Override
