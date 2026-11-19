@@ -10,4 +10,9 @@ public class Cat extends Animal {
     public String makeSound() {
         return "Mjav";
     }
+
+    @Override
+    public boolean eat(String food) {
+        return food.equals("fisk");
+    }
 }
